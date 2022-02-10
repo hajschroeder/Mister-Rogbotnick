@@ -1,4 +1,4 @@
-//Utility Logic
+//Business Logic
 function userInput(number){
   const notValid="This Input is not valid"
   if (number.length === 0){
@@ -9,9 +9,8 @@ function userInput(number){
     outputArray.push(i)
   }
   return outputArray
+
+
 }
-
-//Business Logic 
-
 
 
