@@ -1,13 +1,15 @@
 ---
-#Tests#
+#Tests
 
-Describe: misterRogers()
+Describe: userInput()
 
 Test: It should recognize an empty string, or one that contains only blank spaces
-
-Code: 
-misterRogers("   ");
-
-Expected Output: 0
+*Code: 
+userInput("   ");
+*Expected Output: 0
 
 
+Test: It should return an array of numbers back to the user based on the number they input
+*Code: 
+userInput(5);
+*Expected Output: [0, 1, 2, 3, 4, 5]
