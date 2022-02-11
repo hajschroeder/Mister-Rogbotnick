@@ -6,11 +6,11 @@ function userInput(number){
   }
   let outputArray=[];
   for(let i=0; i<=number; i++){
-    outputArray.push(i)
+    outputArray.push(i.toString())
   }
   return outputArray
-
-
 }
 
-
+function misterRogers(){
+  
+}
