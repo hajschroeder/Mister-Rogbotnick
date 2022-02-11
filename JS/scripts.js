@@ -8,9 +8,21 @@ function userInput(number){
   for(let i=0; i<=number; i++){
     outputArray.push(i.toString())
   }
-  return outputArray
-}
-
-function misterRogers(){
+  outputArray.forEach(function(element, index){
+    if (element.includes(3))
+    console.log(outputArray.splice(index, 1, "x"))
+  })
+  return outputArray;
   
 }
+
+// function misterRogers(outputArray){
+//   let resultArray=[]
+//   outputArray.forEach(function(element){
+//     if (element.includes(3)){
+//       resultArray.push("x")
+//     }
+//   })
+
+// }
+
