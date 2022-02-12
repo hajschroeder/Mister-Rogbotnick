@@ -3,19 +3,19 @@ function userInput(number){
 
 let outputArray=[];
 for(let i=0; i<=number; i++){
-  outputArray.push(i.toString())
+  outputArray.push(i.toString());
 }
 outputArray.forEach(function(element, index){
   if (element.includes(3)) {
-    (outputArray.splice(index, 1, "Won't you be my neighbor"))
+    (outputArray.splice(index, 1, "Won't you be my neighbor"));
   } else if(element.includes(2)){
-    (outputArray.splice(index, 1, "Boop"))
-  }else if(element.includes(1)){
-    (outputArray.splice(index, 1, "Beep"))
+    (outputArray.splice(index, 1, "Boop"));
+  } else if(element.includes(1)){
+    (outputArray.splice(index, 1, "Beep"));
   }
   return outputArray;
 }) 
-  console.log(outputArray)
+  console.log(outputArray);
   
 
 }
@@ -25,8 +25,7 @@ $(document).ready(function(){
   $("form#form").submit(function(event){
     event.preventDefault();
     const output=$("input#numberInput").val();
-    $("#result").text("<p>"+userInput(output)+"</p>");
-    
+    $("#result").html(userInput(output));
   });
 });
 

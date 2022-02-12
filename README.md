@@ -44,6 +44,8 @@ ___
 ## Known Bugs
 As of the current stage in development, the author is having difficulty with his user logic. At present, the Business Logic works perfectly fine, and returns the array as assigned and intended. However, User Logic is not printing the return value to the DOM. As such, the author has not included necessary conditionals, such as what to return to the user if they enter a blank field, enter more than one value, enter a word or words instead of a number, etc. 
 
+Furthermore, there is a background image linked in the styles.css that is not appearing.
+
 ### __Possible Solutions for Bugs__
 As often with these sorts of things, it is highly possible that the UI logic is simply missing a single line of code in order to make it work. It is also fully possible that the author simply does not know how to branch to the DOM while using more than one function (ie, calling his Business function to work with the UI funciton). Going forward, the solution may be found by either revisiting some educational resources on JQuery branching, or abandon JQuery altogether in favor of a "vanilla" javascript approach. 
 
