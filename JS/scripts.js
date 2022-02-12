@@ -14,10 +14,9 @@ outputArray.forEach(function(element, index){
     (outputArray.splice(index, 1, "Beep"));
   }
   return outputArray;
-}) 
+});
   console.log(outputArray);
-  
-
+  //returns desired output
 }
 
 // User Logic
@@ -26,6 +25,9 @@ $(document).ready(function(){
     event.preventDefault();
     const output=$("input#numberInput").val();
     $("#result").html(userInput(output));
+
+    console.log(userInput(output));
+    // returns as 'undefined'
   });
 });
 
