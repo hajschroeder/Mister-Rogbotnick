@@ -16,6 +16,7 @@ outputArray.forEach(function(element, index){
   return outputArray;
 }) 
   console.log(outputArray)
+  
 
 }
 
@@ -24,7 +25,7 @@ $(document).ready(function(){
   $("form#form").submit(function(event){
     event.preventDefault();
     const output=$("input#numberInput").val();
-    $("#result").html(userInput(output));
+    $("#result").text("<p>"+userInput(output)+"</p>");
     
   });
 });

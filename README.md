@@ -76,9 +76,9 @@ userInput(5);
 Test: It should recognize a specific value and replace it with a different value
 *Code: 
 userInput(5);
-*Expected Output: [0,1,2,x,4,5];
+*Expected Output: [0, 1, 2, x, 4, 5];
 
 Test: It should recognize more seperate specific value types and replace them each with a different specific value
 *Code: 
 userInput(5);
-*Expected Output: [0,z,y,x,4,5]
+*Expected Output: [0, z, y, x, 4, 5]

@@ -1,3 +1,11 @@
 *{
 font-family: 'Press Start 2P', cursive;
 }
+body{
+  background-color: black;
+  color: rgb(153, 255, 0);
+  background-image: url("images/robotnick.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
