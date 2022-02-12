@@ -19,15 +19,13 @@ outputArray.forEach(function(element, index){
 
 }
 
-//User Logic
-// $(document).ready(function(){
-//   $("form#form").submit(function(event){
-//     event.preventDefault();
-//     const number=$("input#numberInput").val();
-//     $("#result").html(userInput(number));
+// User Logic
+$(document).ready(function(){
+  $("form#form").submit(function(event){
+    event.preventDefault();
+    const output=$("input#numberInput").val();
+    $("#result").html(userInput(output));
     
-//   });
-// });
+  });
+});
 
-function misterRogers();
-let retunArray= userInput();
